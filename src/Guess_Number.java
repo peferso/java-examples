@@ -7,13 +7,13 @@ public class Guess_Number {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int rnum = (int)(Math.random()*100);
+		int rnum = (int)(Math.random()*100); // this can give 0
 		
 		//System.out.println(rnum);
 		
 		Scanner entrada=new Scanner(System.in);
 		
-		int numero=0;
+		int numero=-1;
 		
 		int intentos=0;
 		
